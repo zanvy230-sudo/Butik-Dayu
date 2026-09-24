@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-09-23T07:13:02.591Z" agent="Antigravity AI" version="21.0.0" type="device">
+  <diagram id="erd_butik_dayu" name="ERD Butik Dayu">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="0" pageHeight="0" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title Block -->
+        <mxCell id="title_block" value="&lt;b style=&quot;font-size: 24px;&quot;&gt;DIAGRAM ENTITY RELATIONSHIP (ERD) - BUTIK DAYU&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Model Konseptual Peter Chen | Transparan &amp;amp; Vektor Wireframe&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="850" height="60" as="geometry" />
+        </mxCell>
+        <!-- Entity: Admin -->
+        <mxCell id="ent_Admin" value="&lt;b&gt;Admin&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="235" width="150" height="50" as="geometry" />
+        </mxCell>
+        <!-- Entity: Pengaturan_Situs -->
+        <mxCell id="ent_Pengaturan_Situs" value="&lt;b&gt;Pengaturan_Situs&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="410" y="235" width="180" height="50" as="geometry" />
+        </mxCell>
+        <!-- Entity: Ulasan_Layanan -->
+        <mxCell id="ent_Ulasan_Layanan" value="&lt;b&gt;Ulasan_Layanan&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="235" width="170" height="50" as="geometry" />
+        </mxCell>
+        <!-- Entity: Produk_Busana -->
+        <mxCell id="ent_Produk_Busana" value="&lt;b&gt;Produk_Busana&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="415" y="823" width="170" height="54" as="geometry" />
+        </mxCell>
+        <!-- Entity: Pesanan_Sewa -->
+        <mxCell id="ent_Pesanan_Sewa" value="&lt;b&gt;Pesanan_Sewa&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="823" width="160" height="54" as="geometry" />
+        </mxCell>
+        <!-- Entity: Pengguna -->
+        <mxCell id="ent_Pengguna" value="&lt;b&gt;Pengguna&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="823" width="160" height="54" as="geometry" />
+        </mxCell>
+        <!-- Entity: Alamat -->
+        <mxCell id="ent_Alamat" value="&lt;b&gt;Alamat&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="526" width="150" height="48" as="geometry" />
+        </mxCell>
+        <!-- Entity: Notifikasi -->
+        <mxCell id="ent_Notifikasi" value="&lt;b&gt;Notifikasi&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="1126" width="150" height="48" as="geometry" />
+        </mxCell>
+        <!-- Entity: Ulasan_Produk -->
+        <mxCell id="ent_Ulasan_Produk" value="&lt;b&gt;Ulasan_Produk&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1413" width="170" height="54" as="geometry" />
+        </mxCell>
+        <!-- Entity: Pemesanan_Rias -->
+        <mxCell id="ent_Pemesanan_Rias" value="&lt;b&gt;Pemesanan_Rias&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1413" width="180" height="54" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Mengatur -->
+        <mxCell id="rel_Mengatur" value="&lt;b&gt;Mengatur&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="880" y="235" width="140" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Memoderasi -->
+        <mxCell id="rel_Memoderasi" value="&lt;b&gt;Memoderasi&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="235" width="140" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Mengelola -->
+        <mxCell id="rel_Mengelola" value="&lt;b&gt;Mengelola&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="880" y="530" width="140" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Memverifikasi -->
+        <mxCell id="rel_Memverifikasi" value="&lt;b&gt;Memverifikasi&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="530" width="150" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Mengelola_Akun -->
+        <mxCell id="rel_Mengelola_Akun" value="&lt;b&gt;Mengelola_Akun&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="530" width="150" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Disewa_Dalam -->
+        <mxCell id="rel_Disewa_Dalam" value="&lt;b&gt;Disewa_Dalam&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="875" y="825" width="150" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Melakukan -->
+        <mxCell id="rel_Melakukan" value="&lt;b&gt;Melakukan&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="825" width="140" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Memiliki -->
+        <mxCell id="rel_Memiliki" value="&lt;b&gt;Memiliki&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2435" y="656" width="130" height="48" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Menerima -->
+        <mxCell id="rel_Menerima" value="&lt;b&gt;Menerima&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2435" y="996" width="130" height="48" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Mendapatkan -->
+        <mxCell id="rel_Mendapatkan" value="&lt;b&gt;Mendapatkan&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1120" width="150" height="50" as="geometry" />
+        </mxCell>
+        <!-- Relasi: Memesan -->
+        <mxCell id="rel_Memesan" value="&lt;b&gt;Memesan&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.5;fontSize=13;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_admin (Admin) -->
+        <mxCell id="attr_Admin_id_admin" value="&lt;u&gt;&lt;b&gt;id_admin&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama (Admin) -->
+        <mxCell id="attr_Admin_nama" value="nama" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="101" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: email (Admin) -->
+        <mxCell id="attr_Admin_email" value="email" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="141" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: password (Admin) -->
+        <mxCell id="attr_Admin_password" value="password" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="101" width="100" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: role (Admin) -->
+        <mxCell id="attr_Admin_role" value="role" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1638" y="141" width="84" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: telepon (Admin) -->
+        <mxCell id="attr_Admin_telepon" value="telepon" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1352" y="151" width="96" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_setting (Pengaturan_Situs) -->
+        <mxCell id="attr_Pengaturan_Situs_id_setting" value="&lt;u&gt;&lt;b&gt;id_setting&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="445" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: kunci_pengaturan (Pengaturan_Situs) -->
+        <mxCell id="attr_Pengaturan_Situs_kunci_pengaturan" value="kunci_pengaturan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="262" y="150" width="136" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nilai_pengaturan (Pengaturan_Situs) -->
+        <mxCell id="attr_Pengaturan_Situs_nilai_pengaturan" value="nilai_pengaturan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="192" y="240" width="136" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_ulasan (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_id_ulasan" value="&lt;u&gt;&lt;b&gt;id_ulasan&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama_klien (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_nama_klien" value="nama_klien" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="101" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: no_whatsapp (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_no_whatsapp" value="no_whatsapp" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1962" y="151" width="116" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: paket (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_paket" value="paket" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="101" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: tanggal_acara (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_tanggal_acara" value="tanggal_acara" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2518" y="151" width="124" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: isi_ulasan (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_isi_ulasan" value="isi_ulasan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2565" y="241" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: status_moderasi (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_status_moderasi" value="status_moderasi" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2514" y="331" width="132" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: ditampilkan (Ulasan_Layanan) -->
+        <mxCell id="attr_Ulasan_Layanan_ditampilkan" value="ditampilkan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2395" y="371" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_produk (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_id_produk" value="&lt;u&gt;&lt;b&gt;id_produk&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="445" y="680" width="110" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: slug (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_slug" value="slug" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="308" y="691" width="84" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama_produk (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_nama_produk" value="nama_produk" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="170" y="741" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: kategori_label (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_kategori_label" value="kategori_label" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="116" y="826" width="128" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: daerah (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_daerah" value="daerah" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="154" y="911" width="92" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: harga_sewa (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_harga_sewa" value="harga_sewa" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="245" y="976" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: stok_ukuran (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_stok_ukuran" value="stok_ukuran" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="385" y="991" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: deskripsi (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_deskripsi" value="deskripsi" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1041" width="100" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: gambar_utama (Produk_Busana) -->
+        <mxCell id="attr_Produk_Busana_gambar_utama" value="gambar_utama" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="308" y="1066" width="124" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_pesanan (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_id_pesanan" value="&lt;u&gt;&lt;b&gt;id_pesanan&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1182" y="670" width="116" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: status_pesanan (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_status_pesanan" value="status_pesanan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1496" y="671" width="128" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: ukuran (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_ukuran" value="ukuran" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1172" y="961" width="96" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: warna (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_warna" value="warna" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="941" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: tgl_sewa_mulai (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_tgl_sewa_mulai" value="tgl_sewa_mulai" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="935" y="1021" width="130" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: tgl_sewa_selesai (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_tgl_sewa_selesai" value="tgl_sewa_selesai" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1102" y="1061" width="136" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: total_pembayaran (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_total_pembayaran" value="total_pembayaran" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1372" y="961" width="136" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: metode_pembayaran (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_metode_pembayaran" value="metode_pembayaran" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1536" y="961" width="148" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: bukti_transfer (Pesanan_Sewa) -->
+        <mxCell id="attr_Pesanan_Sewa_bukti_transfer" value="bukti_transfer" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1051" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_user (Pengguna) -->
+        <mxCell id="attr_Pengguna_id_user" value="&lt;u&gt;&lt;b&gt;id_user&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2248" y="680" width="104" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama (Pengguna) -->
+        <mxCell id="attr_Pengguna_nama" value="nama" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2114" y="686" width="92" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: email (Pengguna) -->
+        <mxCell id="attr_Pengguna_email" value="email" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2004" y="736" width="92" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: password (Pengguna) -->
+        <mxCell id="attr_Pengguna_password" value="password" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="721" width="100" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: telepon (Pengguna) -->
+        <mxCell id="attr_Pengguna_telepon" value="telepon" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2392" y="801" width="96" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: tanggal_lahir (Pengguna) -->
+        <mxCell id="attr_Pengguna_tanggal_lahir" value="tanggal_lahir" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="956" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: jenis_kelamin (Pengguna) -->
+        <mxCell id="attr_Pengguna_jenis_kelamin" value="jenis_kelamin" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="956" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_alamat (Alamat) -->
+        <mxCell id="attr_Alamat_id_alamat" value="&lt;u&gt;&lt;b&gt;id_alamat&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2596" y="420" width="108" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama_penerima (Alamat) -->
+        <mxCell id="attr_Alamat_nama_penerima" value="nama_penerima" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2726" y="461" width="128" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: telepon (Alamat) -->
+        <mxCell id="attr_Alamat_telepon" value="telepon" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2762" y="541" width="96" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: alamat_lengkap (Alamat) -->
+        <mxCell id="attr_Alamat_alamat_lengkap" value="alamat_lengkap" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2725" y="621" width="130" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: is_utama (Alamat) -->
+        <mxCell id="attr_Alamat_is_utama" value="is_utama" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="636" width="100" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_notifikasi (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_id_notifikasi" value="&lt;u&gt;&lt;b&gt;id_notifikasi&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2592" y="1245" width="116" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: judul (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_judul" value="judul" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2745" y="1206" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: pesan (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_pesan" value="pesan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2765" y="1126" width="90" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: icon (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_icon" value="icon" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2750" y="1046" width="80" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: url (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_url" value="url" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="1016" width="80" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: dibaca_at (Notifikasi) -->
+        <mxCell id="attr_Notifikasi_dibaca_at" value="dibaca_at" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2458" y="1246" width="104" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_ulasan_produk (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_id_ulasan_produk" value="&lt;u&gt;&lt;b&gt;id_ulasan_produk&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: rating (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_rating" value="rating" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="446" y="1556" width="88" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: komentar (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_komentar" value="komentar" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="308" y="1501" width="104" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: foto_ulasan (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_foto_ulasan" value="foto_ulasan" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1416" width="110" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama_reviewer (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_nama_reviewer" value="nama_reviewer" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1331" width="130" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: no_whatsapp (Ulasan_Produk) -->
+        <mxCell id="attr_Ulasan_Produk_no_whatsapp" value="no_whatsapp" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="452" y="1281" width="116" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: id_rias (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_id_rias" value="&lt;u&gt;&lt;b&gt;id_rias&lt;/b&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.8;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1848" y="1570" width="104" height="40" as="geometry" />
+        </mxCell>
+        <!-- Attribute: paket_nama (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_paket_nama" value="paket_nama" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1692" y="1571" width="116" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: paket_harga (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_paket_harga" value="paket_harga" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1552" y="1521" width="116" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: nama_lengkap (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_nama_lengkap" value="nama_lengkap" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1498" y="1421" width="124" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: telepon (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_telepon" value="telepon" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1562" y="1326" width="96" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: alamat_acara (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_alamat_acara" value="alamat_acara" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1281" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: tanggal_acara (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_tanggal_acara" value="tanggal_acara" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1988" y="1571" width="124" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: jam_acara (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_jam_acara" value="jam_acara" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2138" y="1521" width="104" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: metode_bayar (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_metode_bayar" value="metode_bayar" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="1421" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: bukti_transfer (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_bukti_transfer" value="bukti_transfer" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1326" width="120" height="38" as="geometry" />
+        </mxCell>
+        <!-- Attribute: status_rias (Pemesanan_Rias) -->
+        <mxCell id="attr_Pemesanan_Rias_status_rias" value="status_rias" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1.2;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2006" y="1281" width="108" height="38" as="geometry" />
+        </mxCell>
+        <!-- Edge Admin to Mengatur (1) -->
+        <mxCell id="edge_Admin_Mengatur" value="1" edge="1" parent="1" source="ent_Admin" target="rel_Mengatur" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Mengatur to Pengaturan_Situs (N) -->
+        <mxCell id="edge_Mengatur_Pengaturan_Situs" value="N" edge="1" parent="1" source="rel_Mengatur" target="ent_Pengaturan_Situs" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Admin to Memoderasi (1) -->
+        <mxCell id="edge_Admin_Memoderasi" value="1" edge="1" parent="1" source="ent_Admin" target="rel_Memoderasi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Memoderasi to Ulasan_Layanan (N) -->
+        <mxCell id="edge_Memoderasi_Ulasan_Layanan" value="N" edge="1" parent="1" source="rel_Memoderasi" target="ent_Ulasan_Layanan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Admin to Mengelola (1) -->
+        <mxCell id="edge_Admin_Mengelola" value="1" edge="1" parent="1" source="ent_Admin" target="rel_Mengelola" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Mengelola to Produk_Busana (N) -->
+        <mxCell id="edge_Mengelola_Produk_Busana" value="N" edge="1" parent="1" source="rel_Mengelola" target="ent_Produk_Busana" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Admin to Memverifikasi (1) -->
+        <mxCell id="edge_Admin_Memverifikasi" value="1" edge="1" parent="1" source="ent_Admin" target="rel_Memverifikasi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Memverifikasi to Pesanan_Sewa (N) -->
+        <mxCell id="edge_Memverifikasi_Pesanan_Sewa" value="N" edge="1" parent="1" source="rel_Memverifikasi" target="ent_Pesanan_Sewa" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Admin to Mengelola_Akun (1) -->
+        <mxCell id="edge_Admin_Mengelola_Akun" value="1" edge="1" parent="1" source="ent_Admin" target="rel_Mengelola_Akun" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Mengelola_Akun to Pengguna (N) -->
+        <mxCell id="edge_Mengelola_Akun_Pengguna" value="N" edge="1" parent="1" source="rel_Mengelola_Akun" target="ent_Pengguna" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Produk_Busana to Disewa_Dalam (1) -->
+        <mxCell id="edge_Produk_Busana_Disewa_Dalam" value="1" edge="1" parent="1" source="ent_Produk_Busana" target="rel_Disewa_Dalam" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Disewa_Dalam to Pesanan_Sewa (N) -->
+        <mxCell id="edge_Disewa_Dalam_Pesanan_Sewa" value="N" edge="1" parent="1" source="rel_Disewa_Dalam" target="ent_Pesanan_Sewa" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Pengguna to Melakukan (1) -->
+        <mxCell id="edge_Pengguna_Melakukan" value="1" edge="1" parent="1" source="ent_Pengguna" target="rel_Melakukan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Melakukan to Pesanan_Sewa (N) -->
+        <mxCell id="edge_Melakukan_Pesanan_Sewa" value="N" edge="1" parent="1" source="rel_Melakukan" target="ent_Pesanan_Sewa" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Pengguna to Memiliki (1) -->
+        <mxCell id="edge_Pengguna_Memiliki" value="1" edge="1" parent="1" source="ent_Pengguna" target="rel_Memiliki" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Memiliki to Alamat (N) -->
+        <mxCell id="edge_Memiliki_Alamat" value="N" edge="1" parent="1" source="rel_Memiliki" target="ent_Alamat" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Pengguna to Menerima (1) -->
+        <mxCell id="edge_Pengguna_Menerima" value="1" edge="1" parent="1" source="ent_Pengguna" target="rel_Menerima" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Menerima to Notifikasi (N) -->
+        <mxCell id="edge_Menerima_Notifikasi" value="N" edge="1" parent="1" source="rel_Menerima" target="ent_Notifikasi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Produk_Busana to Mendapatkan (1) -->
+        <mxCell id="edge_Produk_Busana_Mendapatkan" value="1" edge="1" parent="1" source="ent_Produk_Busana" target="rel_Mendapatkan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Mendapatkan to Ulasan_Produk (N) -->
+        <mxCell id="edge_Mendapatkan_Ulasan_Produk" value="N" edge="1" parent="1" source="rel_Mendapatkan" target="ent_Ulasan_Produk" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Pengguna to Memesan (1) -->
+        <mxCell id="edge_Pengguna_Memesan" value="1" edge="1" parent="1" source="ent_Pengguna" target="rel_Memesan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edge Memesan to Pemesanan_Rias (N) -->
+        <mxCell id="edge_Memesan_Pemesanan_Rias" value="N" edge="1" parent="1" source="rel_Memesan" target="ent_Pemesanan_Rias" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;fontSize=14;fontStyle=1;labelBackgroundColor=none;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_id_admin" edge="1" parent="1" source="ent_Admin" target="attr_Admin_id_admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_nama" edge="1" parent="1" source="ent_Admin" target="attr_Admin_nama" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_email" edge="1" parent="1" source="ent_Admin" target="attr_Admin_email" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_password" edge="1" parent="1" source="ent_Admin" target="attr_Admin_password" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_role" edge="1" parent="1" source="ent_Admin" target="attr_Admin_role" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Admin_telepon" edge="1" parent="1" source="ent_Admin" target="attr_Admin_telepon" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengaturan_Situs_id_setting" edge="1" parent="1" source="ent_Pengaturan_Situs" target="attr_Pengaturan_Situs_id_setting" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengaturan_Situs_kunci_pengaturan" edge="1" parent="1" source="ent_Pengaturan_Situs" target="attr_Pengaturan_Situs_kunci_pengaturan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengaturan_Situs_nilai_pengaturan" edge="1" parent="1" source="ent_Pengaturan_Situs" target="attr_Pengaturan_Situs_nilai_pengaturan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_id_ulasan" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_id_ulasan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_nama_klien" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_nama_klien" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_no_whatsapp" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_no_whatsapp" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_paket" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_paket" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_tanggal_acara" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_tanggal_acara" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_isi_ulasan" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_isi_ulasan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_status_moderasi" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_status_moderasi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Layanan_ditampilkan" edge="1" parent="1" source="ent_Ulasan_Layanan" target="attr_Ulasan_Layanan_ditampilkan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_id_produk" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_id_produk" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_slug" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_slug" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_nama_produk" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_nama_produk" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_kategori_label" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_kategori_label" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_daerah" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_daerah" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_harga_sewa" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_harga_sewa" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_stok_ukuran" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_stok_ukuran" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_deskripsi" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_deskripsi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Produk_Busana_gambar_utama" edge="1" parent="1" source="ent_Produk_Busana" target="attr_Produk_Busana_gambar_utama" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_id_pesanan" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_id_pesanan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_status_pesanan" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_status_pesanan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_ukuran" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_ukuran" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_warna" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_warna" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_tgl_sewa_mulai" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_tgl_sewa_mulai" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_tgl_sewa_selesai" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_tgl_sewa_selesai" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_total_pembayaran" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_total_pembayaran" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_metode_pembayaran" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_metode_pembayaran" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pesanan_Sewa_bukti_transfer" edge="1" parent="1" source="ent_Pesanan_Sewa" target="attr_Pesanan_Sewa_bukti_transfer" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_id_user" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_id_user" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_nama" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_nama" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_email" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_email" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_password" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_password" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_telepon" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_telepon" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_tanggal_lahir" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_tanggal_lahir" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pengguna_jenis_kelamin" edge="1" parent="1" source="ent_Pengguna" target="attr_Pengguna_jenis_kelamin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Alamat_id_alamat" edge="1" parent="1" source="ent_Alamat" target="attr_Alamat_id_alamat" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Alamat_nama_penerima" edge="1" parent="1" source="ent_Alamat" target="attr_Alamat_nama_penerima" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Alamat_telepon" edge="1" parent="1" source="ent_Alamat" target="attr_Alamat_telepon" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Alamat_alamat_lengkap" edge="1" parent="1" source="ent_Alamat" target="attr_Alamat_alamat_lengkap" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Alamat_is_utama" edge="1" parent="1" source="ent_Alamat" target="attr_Alamat_is_utama" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_id_notifikasi" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_id_notifikasi" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_judul" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_judul" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_pesan" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_pesan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_icon" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_icon" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_url" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_url" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Notifikasi_dibaca_at" edge="1" parent="1" source="ent_Notifikasi" target="attr_Notifikasi_dibaca_at" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_id_ulasan_produk" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_id_ulasan_produk" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_rating" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_rating" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_komentar" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_komentar" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_foto_ulasan" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_foto_ulasan" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_nama_reviewer" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_nama_reviewer" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Ulasan_Produk_no_whatsapp" edge="1" parent="1" source="ent_Ulasan_Produk" target="attr_Ulasan_Produk_no_whatsapp" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_id_rias" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_id_rias" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_paket_nama" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_paket_nama" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_paket_harga" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_paket_harga" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_nama_lengkap" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_nama_lengkap" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_telepon" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_telepon" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_alamat_acara" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_alamat_acara" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_tanggal_acara" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_tanggal_acara" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_jam_acara" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_jam_acara" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_metode_bayar" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_metode_bayar" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_bukti_transfer" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_bukti_transfer" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_Pemesanan_Rias_status_rias" edge="1" parent="1" source="ent_Pemesanan_Rias" target="attr_Pemesanan_Rias_status_rias" style="endArrow=none;html=1;rounded=0;strokeWidth=1.2;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
